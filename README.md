@@ -11,5 +11,5 @@ An generator for RPGs. It includes NPCs, items, spells, and much more.
 ### Author 
 - Nicks
 
-### License
-- Check the LICENSE.md
+## License
+### This software and its associated files are protected by copyright.
