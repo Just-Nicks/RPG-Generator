@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/generators.css">
+    <title>ENEMY GEN</title>
+</head>
+
+<body>
+    <div class="nav-bar">
+        <img src="../img/dice_24dp.svg" />
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./generators.html">Generators</a></li>
+            <li><a href="">Oracles</a></li>
+        </ul>
+    </div>
+
+    <div class="top-infos">
+        <div class="selections">
+            <div class="content">
+                <h2>TYPE:</h2>
+                <select name="Character Type" id="c_type">
+                    <option value="SCI_FI">SCI-FI</option>
+                    <option value="ROBOT">ROBOTS</option>
+                    <option value="MODERN">MODERN</option>
+                    <option value="MEDIEVAL">MEDIEVAL</option>
+                    <option value="APOCALYPSE">APOCALYPSE</option>
+                    <option value="STEAMPUNK">STEAMPUNK</option>
+                    <option value="SUPERNATURAL">SUPERNATURAL</option>
+                </select>
+            </div>
+            <button id="gen-bnt">Generate</button>
+        </div>
+
+        <div class="types">
+            <div class="sheet">
+                <span>
+                    <h1>Enemy Sheet</h1>
+                    <h2>Name</h2>
+                    <p id="first_name"></p>
+                    <h2>Damage</h2>
+                    <p id="damage_lvl"></p>
+                    <h2>Shield</h2>
+                    <p id="shield_lvl"></p>
+                    <h2>Danger Lvl</h2>
+                    <p id="danger_lvl"></p>
+                    
+                </span>
+                <div class="avatar">
+                    <img src="https://placehold.co/150x150" />
+                </div>
+            </div>
+        </div>
+
+<script type="module" src="../javascript/ENEMY.script.js"></script>
+</body>
+
+</html>

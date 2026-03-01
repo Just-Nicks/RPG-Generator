@@ -1,10 +1,10 @@
-import { SCI_FI, ROBOTS, SCI_LAST_N } from "./js/SCIFI_names.js"
-import { MODERN, MODERN_LAST_N } from "./js/MODERN_names.js"
-import { MEDIEVAL, MEDIEVAL_LAST_N } from "./js/MEDIEVAL_names.js";
-import { APOCALYPSE, APOCALYPSE_LAST_N } from "./js/APOCALYPSE_names.js";
-import { STEAMPUNK, STEAMPUNK_LAST_N } from "./js/STEAMPUNK_names.js"
+import { SCI_FI, ROBOTS, SCI_LAST_N } from "./NPCs/SCIFI_names.js"
+import { MODERN, MODERN_LAST_N } from "./NPCs/MODERN_names.js"
+import { MEDIEVAL, MEDIEVAL_LAST_N } from "./NPCs/MEDIEVAL_names.js";
+import { APOCALYPSE, APOCALYPSE_LAST_N } from "./NPCs/APOCALYPSE_names.js";
+import { STEAMPUNK, STEAMPUNK_LAST_N } from "./NPCs/STEAMPUNK_names.js"
 
-import { OCCUPATION } from "./js/works.js";
+import { OCCUPATION } from "./works.js";
 
 function random(array) {
     return array[Math.floor(Math.random() * array.length)]
@@ -12,9 +12,9 @@ function random(array) {
 
 const selection_type = document.getElementById("c_type");
 const selection_sex = document.getElementById("c_sex");
-const button = document.getElementById("gen-bnt")
+const button = document.getElementById("gen-bnt");
 
-button.addEventListener("click", generate)
+button.addEventListener("click", generate);
 
 function generate() {
 
