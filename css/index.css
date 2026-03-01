@@ -1,0 +1,17 @@
+.content{
+    display: grid;
+    place-items: center;
+    padding: 1rem;
+    gap: 2rem;
+}
+
+.description{
+    display: grid;
+    place-items: center;
+}
+
+.content-left{
+    flex-wrap: wrap;
+    padding: 1rem;
+    gap: 1rem;
+}
