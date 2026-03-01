@@ -1,0 +1,103 @@
+.types{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+    padding: 1rem;
+}
+
+.gen-box{
+    display: grid;
+    align-items: start;
+    padding: 1rem;
+    gap: 1rem;
+    background-color: #003566;
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+}
+
+.types a{
+    text-decoration: none;
+    border-radius: 10px;
+    color: white;
+    transition: 0.3s all;
+}
+
+.types a:hover{
+    color: #FFD60A;
+    border: solid 2px #FFD60A;
+    transform: translateY(-10px);
+}
+
+/* Sheets PAG 2 */
+
+.sheet{
+    display: flex;
+    background-color: #003566;
+    width: auto;
+    height: auto;
+    gap: 3rem;
+    padding: 1rem;
+    border-radius: 10px;
+    border: solid 3px #FFD60A;
+}
+
+.sheet h2{
+    margin-top: 10px;
+}
+
+.sheet p{
+    font-weight: bold;
+}
+
+.selections{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1rem;
+    gap: 1.5rem;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#occupation{
+    max-width: 190px;
+}
+
+button{
+    color: #FFD60A;
+    background-color: #003566;
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+}
+
+button:hover{
+    border: solid #FFD60A 3px;
+    transform: scale(1.05);
+}
+
+button:active{
+    transform: scale(0.90);
+}
+
+select{
+    background-color: #003566;
+    color: #FFD60A;
+    width: auto;
+    height: 30px;
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+select:hover{
+    border: solid #FFD60A 3px;
+}
