@@ -19,6 +19,9 @@ This project started with an idea I had while writing my own RPG. Then I thought
 
 This project also helped me understand and format JavaScript code, enabling me to become a better developer.
 
+## 👾 Author
+- Just-Nicks
+
 ## 🛡️ License 🛡️
 ### This software and its associated files are protected by copyright.
 ### Check the LICENSE.md
