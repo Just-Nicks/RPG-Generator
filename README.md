@@ -9,7 +9,7 @@ This project focuses on helping RPG masters and players develop ideas for their 
 ## 🛠️ Features
 This project can generate:
 All functions have specific settings.
-- NPC's / Crhacters
+- NPC's / Characters
 - Enimes 
 - Items 
 - Spells
