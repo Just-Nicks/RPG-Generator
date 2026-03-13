@@ -1,4 +1,4 @@
-# Copyright © 2026 Ruy L. (Just-Nicks)
+# Copyright © 2026 Just-Nicks
 ## This software and its associated files are protected by copyright.
 
 ### Permissions
